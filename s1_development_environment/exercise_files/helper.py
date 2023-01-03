@@ -2,7 +2,8 @@ import matplotlib.pyplot as plt
 import numpy as np
 from torch import nn, optim
 from torch.autograd import Variable
-from sklearn.ensemble import RandomForestClassifier
+import scipy
+
 
 
 
