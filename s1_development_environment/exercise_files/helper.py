@@ -2,8 +2,8 @@ import matplotlib.pyplot as plt
 import numpy as np
 from torch import nn, optim
 from torch.autograd import Variable
-import scipy
-from sklearn.preprocessing import StandardScaler
+import sklearn
+
 
 
 def test_network(net, trainloader):
