@@ -2,7 +2,7 @@ import matplotlib.pyplot as plt
 import numpy as np
 from torch import nn, optim
 from torch.autograd import Variable
-from scipy import constants
+import sklearn
 from sklearn.preprocessing import StandardScaler
 
 
