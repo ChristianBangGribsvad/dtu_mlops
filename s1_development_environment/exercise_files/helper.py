@@ -2,8 +2,8 @@ import matplotlib.pyplot as plt
 import numpy as np
 from torch import nn, optim
 from torch.autograd import Variable
-import sklearn
-from sklearn.ensemble import RandomForestClassifier
+from scipy import constants
+from sklearn.preprocessing import StandardScaler
 
 
 def test_network(net, trainloader):
