@@ -2,7 +2,7 @@ import matplotlib.pyplot as plt
 import numpy as np
 from torch import nn, optim
 from torch.autograd import Variable
-from sklearn.preprocessing import StandardScaler
+from sklearn.ensemble import RandomForestClassifier
 
 
 
